@@ -81,8 +81,8 @@ def options(*,
                     min_chars=min_chars, max_chars=max_chars,)
         yield
     finally:
-        _options = _old_options
-        _rand = _old_rand
+        _options = _old_options  # pylint: disable=used-before-assignment
+        _rand = _old_rand  # pylint: disable=used-before-assignment
 
 
 def set_options(*,
