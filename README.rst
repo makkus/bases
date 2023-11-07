@@ -32,6 +32,9 @@ bases: A Python library for Base-N encodings
 
 Bases provides a customisable, parametric implementation of several common styles of Base-N encoding, covering all cases appearing in the `multibase specification <https://github.com/multiformats/multibase>`_ (except for proquints).
 
+This is a temporary fork of the original project to be used until the original project incorporates a bug fix to work with newer versions of the 'typing_extensions' dependency.
+
+Bug: https://github.com/hashberg-io/typing-validation/issues/1
 
 .. contents::
 
