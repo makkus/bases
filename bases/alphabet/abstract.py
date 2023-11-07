@@ -198,5 +198,5 @@ class Alphabet(ABC, Sequence[str]):
         ...
 
     @abstractmethod
-    def __getitem__(self, idx: Union[int, slice]) -> Union[str, "Alphabet"]: #type: ignore
+    def __getitem__(self, idx: Union[int, slice]) -> Union[str, "Alphabet"]:
         ...
